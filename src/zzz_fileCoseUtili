@@ -1,0 +1,26 @@
+/* 
+FontAwesome per icone più varie, da usare nei componenti così:
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+<FontAwesomeIcon icon={faCoffee} />
+*/
+
+/* 
+Se hai bisogno di chiamare API REST con AXIOS, usalo così:
+
+import axios from 'axios';
+
+axios.get('https://api.example.com/data')
+  .then(response => console.log(response.data))
+  .catch(error => console.error(error));
+*/
+
+/* 
+React Icons (raccolta di icone da vari set). E importale nei componenti:
+
+import { FaBeer } from 'react-icons/fa';
+
+<FaBeer />
+*/
